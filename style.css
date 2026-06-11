@@ -320,7 +320,13 @@ footer {
   margin-bottom: 0;
 }
 .footer-brand { flex: 1.5; min-width: 220px; }
-.footer-brand img { height: 80px; margin-bottom: 16px; }
+.footer-brand img {
+  height: 80px; margin-bottom: 16px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 8px 16px;
+  object-fit: contain;
+}
 .footer-brand p { font-size: 0.93rem; line-height: 1.7; color: #ccc; }
 .footer-col { flex: 1; min-width: 140px; }
 .footer-col h4 { color: var(--white); font-size: 0.97rem; font-weight: 700; margin-bottom: 16px; }
